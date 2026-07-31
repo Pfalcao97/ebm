@@ -1,0 +1,90 @@
+# The Hayagriva YAML File Format
+# https://github.com/typst/hayagriva/blob/main/docs/file-format.md
+
+stocker:
+  type: Book
+  title: Introduction to climate modelling
+  author: Stocker, Thomas
+  date: 2011-01
+  location: Berlin
+  language: english
+
+trenberth:
+  type: article
+  title: Earth's Global Energy Budget
+  author:
+    - Trenberth, Kevin
+    - Fasullo, John
+    - Kieh, Jeffrey
+  date: 2008-07-29
+  serial-number:
+          doi: "10.1175/2008BAMS2634.I"
+
+forcing:
+    type: article
+    title: "Radiative forcing of carbon dioxide, methane, and nitrous oxide: A significant revision of the methane radiative forcing"
+    author:
+      - Etminan, M.
+      - Myhre, G.
+      - Highwood, E. J.
+      - Shine, K. P.
+    date: 2016-12-27
+    parent:
+      type: Periodical
+      title: Geophysical Research Letters
+    serial-number:
+      doi: 10.1002/2016GL071930
+
+glossary-ipcc:
+  type: Book
+  title: "Climate Change 2021 - The Physical Science Basis"
+  author: Intergovernmental Panel On Climate Change (Ipcc)
+  date: 2023-07
+  chapter: Annex VII - Glossary
+  serial-number:
+    doi: 10.1017/9781009157896
+    isbn: 978-1-009-15789-6
+  publisher: Cambridge University Press
+
+noaa-data:
+  type: Web
+  title: Trends in CO2, CH4, N2O, SF6
+  author: "National Oceanic and Atmospheric Administration (NOAA)"
+  url:
+    value: https://gml.noaa.gov/ccgg/trends/
+    date: 2026-07-27
+
+florian:
+  type: Web
+  title: Lecture 2, A “zero-dimensional” energy balance model of Earth’s climate
+  author: Florian Börgel
+  url:
+    value: https://florianboergel.github.io/climateoftheocean/2020-11-11-energy-model.html
+    date: 2026-07-01
+
+zeke:
+  type: Web
+  title: The Strongest El Niño Ever
+  author: Zeke Hausfather
+  date: 2026-07-13
+  url:
+    value: https://www.theclimatebrink.com/p/the-strongest-el-nino-ever
+    date: 2026-07-26
+
+ourworldindata:
+  type: Web
+  title: Carbon dioxide concentration in the atmosphere
+  author:
+    - NOAA Global Monitoring Laboratory
+    - EPA
+    - Our World in Data
+  date: 2026-07-10
+  url:
+    value: https://ourworldindata.org/grapher/co2-long-term-concentration
+    date: 2026-07-28
+
+manualcalculo:
+  type: Book
+  title: Manual de Cálculo Numérico Aplicado
+  author: Prof. Doutor Rafael Gabler Gontijo
+  date: 2025-08-19
